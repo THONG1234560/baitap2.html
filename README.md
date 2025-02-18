@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        table {
+            width: 10%;
+        }
+        table, td, th {
+            border: 1px solid #333;
+            border-collapse: collapse;
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>My Store</h1>
+    <table>
+        <tr>
+            <th>Item photo</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td><img src="https://techs.co.jp/photoshare/upload/save_image/6-89-006_L.jpg" alt="oranges" width="120" height="90"></td>
+            <td>oranges</td>
+            <td>¥1000</td>
+        </tr>
+        <tr>
+            <td><img src="https://www.suntory-kenko.com/column2/wp-content/uploads/2023/01/971-1.jpg" alt="bananas"width="120" height="90"></td>
+            <td>bananas</td>
+            <td>￥250</td>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.britannica.com/96/201196-050-C0441508/Batch-pomegranate-fruits.jpg" alt="pomegranates"width="120" height="90"></td>
+            <td>pomegranates</td>
+            <td>￥1250</td>
+        </tr>
+        <tr>
+            <td><img src="https://static.designboom.com/wp-content/uploads/2020/06/food-design-haribo-gummy-bear-designboom-14.jpg" alt="gummy bears"width="120" height="90"></td>
+            <td>gummy bears</td>
+            <td>￥200</td> 
+        </tr>
+        <tr>
+            <td><img src="https://www.meibundo-books.co.jp/news_event/blog-img/S__8888327.jpg" alt="broccolis"width="120" height="90"></td>
+            <td>broccolis</td>
+            <td>￥300</td> 
+        </tr>
+    </table>
+    <h1>Boking Form</h1>
+    <form action="https://api.gateway.com" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="q">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        <br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        <br>
+        <label for="number">Number of Guests:</label>
+        <input type="nunber" id="nunber" name="nunber">
+        <br>
+        <input type="submit" value="submit"/>
+    </form>
+<br>
+<h1>Car Purchase Form</h1>
+    <form>
+        <form action="https://api.gateway.com" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="q">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone">
+            <br>
+            <label for="name">Choose a car:</label>
+            <select name="Choose a car">
+            <option value="Model1">model1</option>
+            <option value="Model2">model2</option>
+            <option value="Model3">model3</option>
+            <option value="Model4">model4</option>
+        </select>
+        <br>
+            <label for="name">Choose a color:</label>
+            <select name="Choose a color">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="pink">pink</option>
+            <option value="white">white</option>
+            <option value="black">black</option>
+        </select>
+        <br>
+        <label for="name">Quantity:</label>
+        <input type="number" id="Quantity" name="Quantity">
+        <br>
+        <label for="date">Delivery Date:</label>
+            <input type="date" id="date" name="Delivery Date">
+            <br>
+            <input type="submit" value="submit"/>
+    </form>
+
+</body>
+</html>
